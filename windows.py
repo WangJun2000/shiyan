@@ -373,4 +373,4 @@ if __name__ == '__main__':
                 break
             else:
                 print("无效指令")
-            print("当前音量："+str(round(pygame.mixer.music.get_volume(), 1)))
+            print("当前音量： "+str(round(pygame.mixer.music.get_volume(), 1)))
