@@ -163,7 +163,7 @@ def parse(keyword, num):
 
     # 解析json
     json_data = json.loads(response)
-    # print(json_data)
+    print(json_data)
 
     json_data = json_data['data']['song']['list']
     # print(json_data)
